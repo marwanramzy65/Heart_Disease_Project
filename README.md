@@ -6,22 +6,24 @@ It covers **data preprocessing, exploratory analysis, feature selection, model t
 
 ---
 
+```
 Heart_Disease_Project/
 │── data/
-│   ├── processed.cleveland.csv
+│ ├── processed.cleveland.csv
 │── notebooks/
-│   ├── heart_disease (5).ipynb
+│ ├── heart_disease (5).ipynb
 │── models/
-│   ├── heart_pipeline (2).pkl
+│ ├── heart_pipeline (2).pkl
 │── ui/
-│   ├── app2.py              # Streamlit UI
+│ ├── app2.py # Streamlit UI
 │── deployment/
-│   ├── ngrok.txt
+│ ├── ngrok.txt
 │── results/
-│   ├── evaluation_metrics.txt
+│ ├── evaluation_metrics.txt
 │── README.md
 │── requirements2.txt
 │── .gitignore
+```
 
 
 ## 📊 Dataset
