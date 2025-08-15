@@ -5,6 +5,7 @@ This project builds a **machine learning pipeline** to predict the risk of heart
 It covers **data preprocessing, exploratory analysis, feature selection, model training, evaluation, and deployment** via Streamlit with Ngrok for public access.
 
 ---
+
 Heart_Disease_Project/
 │── data/
 │   ├── processed.cleveland.csv
@@ -21,7 +22,7 @@ Heart_Disease_Project/
 │── README.md
 │── requirements2.txt
 │── .gitignore
----
+
 
 ## 📊 Dataset
 The dataset contains patient health metrics such as:
