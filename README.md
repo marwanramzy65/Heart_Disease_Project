@@ -6,6 +6,7 @@ It covers **data preprocessing, exploratory analysis, feature selection, model t
 
 ---
 
+## 📂 Repository Structure
 ```
 Heart_Disease_Project/
 │── data/
