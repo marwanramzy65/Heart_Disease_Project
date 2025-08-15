@@ -1,0 +1,131 @@
+[All standardized features] Acc: 0.8525
+              precision    recall  f1-score   support
+
+           0       0.88      0.85      0.86        33
+           1       0.83      0.86      0.84        28
+
+    accuracy                           0.85        61
+   macro avg       0.85      0.85      0.85        61
+weighted avg       0.85      0.85      0.85        61
+
+Confusion Matrix:
+[[28  5]
+ [ 4 24]]
+[Selected features (RF ∪ RFE ∪ Chi2)] Acc: 0.8852
+              precision    recall  f1-score   support
+
+           0       0.91      0.88      0.89        33
+           1       0.86      0.89      0.88        28
+
+    accuracy                           0.89        61
+   macro avg       0.88      0.89      0.88        61
+weighted avg       0.89      0.89      0.89        61
+
+Confusion Matrix:
+[[29  4]
+ [ 3 25]]
+[PCA components (≥95% EV)] Acc: 0.8361
+              precision    recall  f1-score   support
+
+           0       0.83      0.88      0.85        33
+           1       0.85      0.79      0.81        28
+
+    accuracy                           0.84        61
+   macro avg       0.84      0.83      0.83        61
+weighted avg       0.84      0.84      0.84        61
+
+Confusion Matrix:
+[[29  4]
+ [ 6 22]]
+
+[Random Forest] Acc: 0.9016
+              precision    recall  f1-score   support
+
+           0       0.94      0.88      0.91        33
+           1       0.87      0.93      0.90        28
+
+    accuracy                           0.90        61
+   macro avg       0.90      0.90      0.90        61
+weighted avg       0.90      0.90      0.90        61
+
+Confusion Matrix:
+[[29  4]
+ [ 2 26]]
+[Selected features (RF ∪ RFE ∪ Chi2)] Acc: 0.8689
+              precision    recall  f1-score   support
+
+           0       0.90      0.85      0.88        33
+           1       0.83      0.89      0.86        28
+
+    accuracy                           0.87        61
+   macro avg       0.87      0.87      0.87        61
+weighted avg       0.87      0.87      0.87        61
+
+Confusion Matrix:
+[[28  5]
+ [ 3 25]]
+[PCA components (≥95% EV)] Acc: 0.9016
+              precision    recall  f1-score   support
+
+           0       0.94      0.88      0.91        33
+           1       0.87      0.93      0.90        28
+
+    accuracy                           0.90        61
+   macro avg       0.90      0.90      0.90        61
+weighted avg       0.90      0.90      0.90        61
+
+Confusion Matrix:
+[[29  4]
+ [ 2 26]]
+[Gradient Boosting] Acc: 0.8689
+              precision    recall  f1-score   support
+
+           0       0.93      0.82      0.87        33
+           1       0.81      0.93      0.87        28
+
+    accuracy                           0.87        61
+   macro avg       0.87      0.87      0.87        61
+weighted avg       0.88      0.87      0.87        61
+
+Confusion Matrix:
+[[27  6]
+ [ 2 26]]
+[SVM RBF] Acc: 0.9016
+              precision    recall  f1-score   support
+
+           0       1.00      0.82      0.90        33
+           1       0.82      1.00      0.90        28
+
+    accuracy                           0.90        61
+   macro avg       0.91      0.91      0.90        61
+weighted avg       0.92      0.90      0.90        61
+
+Confusion Matrix:
+[[27  6]
+ [ 0 28]]
+[SVM Selected features (RF ∪ RFE ∪ Chi2)] Acc: 0.8361
+              precision    recall  f1-score   support
+
+           0       0.87      0.82      0.84        33
+           1       0.80      0.86      0.83        28
+
+    accuracy                           0.84        61
+   macro avg       0.84      0.84      0.84        61
+weighted avg       0.84      0.84      0.84        61
+
+Confusion Matrix:
+[[27  6]
+ [ 4 24]]
+[SVM PCA components (≥95% EV)] Acc: 0.8689
+              precision    recall  f1-score   support
+
+           0       0.96      0.79      0.87        33
+           1       0.79      0.96      0.87        28
+
+    accuracy                           0.87        61
+   macro avg       0.88      0.88      0.87        61
+weighted avg       0.89      0.87      0.87        61
+
+Confusion Matrix:
+[[26  7]
+ [ 1 27]]
