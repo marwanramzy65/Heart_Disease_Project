@@ -65,7 +65,7 @@ def prepare_for_model(df: pd.DataFrame) -> pd.DataFrame:
 # ====== Load model (no auto predict) ======
 BASE = Path(__file__).resolve().parents[1]
 @st.cache_resource(show_spinner=False)
-def load_model(path: Path = BASE / "model" / "heart_pipeline.pkl"):
+def load_model(path: Path = BASE / "model" / "heart_pipeline.pkl", trusted=True):
     if not path.exists():
         return None, f"Model file not found at: {path}"
     try:
