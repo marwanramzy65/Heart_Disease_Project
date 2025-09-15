@@ -5,6 +5,7 @@ import pandas as pd
 import streamlit as st
 import joblib
 from sklearn.base import BaseEstimator, TransformerMixin
+from pathlib import Path
 
 st.set_page_config(page_title="Heart Disease Prediction UI", page_icon="❤️", layout="wide")
 st.title("❤️ Heart Disease Prediction")
@@ -62,12 +63,13 @@ def prepare_for_model(df: pd.DataFrame) -> pd.DataFrame:
     return df[REQUIRED_INPUT]
 
 # ====== Load model (no auto predict) ======
+BASE = Path(__file__).resolve().parents[1]
 @st.cache_resource(show_spinner=False)
-def load_model(path: str = "heart_pipeline.pkl"):
-    if not os.path.exists(path):
-        return None, f"Model file '{path}' was not found."
+def load_model(path: Path = BASE / "models" / "heart_pipeline.pkl"):
+    if not path.exists():
+        return None, f"Model file not found at: {path}"
     try:
-        mdl = joblib.load(path)  # resolves SchemaCleaner
+        mdl = joblib.load(path)  # SchemaCleaner is defined above → ok
         return mdl, None
     except Exception as e:
         return None, f"Failed to load model: {e}"
