@@ -14,7 +14,7 @@ Heart_Disease_Project/
 │── notebooks/
 │ ├── heart_disease (5).ipynb
 │── models/
-│ ├── heart_pipeline (2).pkl
+│ ├── heart_pipeline.pkl
 │── ui/
 │ ├── app2.py # Streamlit UI
 │── deployment/
