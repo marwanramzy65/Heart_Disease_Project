@@ -22,7 +22,7 @@ Heart_Disease_Project/
 │── results/
 │ ├── evaluation_metrics.txt
 │── README.md
-│── requirements2.txt
+│── requirements.txt
 │── .gitignore
 ```
 
