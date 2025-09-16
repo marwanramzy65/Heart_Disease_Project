@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 This project builds a **machine learning pipeline** to predict the risk of heart disease based on patient medical data.  
-It covers **data preprocessing, exploratory analysis, feature selection, model training, evaluation, and deployment** via Streamlit with Ngrok and hugging face space(https://marwanramzy-heartdisease.hf.space/) for public access .
+It covers **data preprocessing, exploratory analysis, feature selection, model training, evaluation, and deployment** via Streamlit with Ngrok and Hugging Face Space(https://marwanramzy-heartdisease.hf.space/) for public access .
 
 ---
 
