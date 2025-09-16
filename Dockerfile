@@ -23,4 +23,4 @@ EXPOSE 7860
 ENV STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
 
 # Run your Streamlit app
-CMD ["streamlit", "run", "ui/app2.py", "--server.port=7860", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "UI/app2.py", "--server.port=7860", "--server.address=0.0.0.0"]
